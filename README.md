@@ -16,7 +16,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 # Enrichissement, Traitements
 
 ## Données Wikipédia
-à compléter
+> à compléter
 
 ## Données écartées
 - Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques
