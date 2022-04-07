@@ -5,7 +5,7 @@ Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 # Objectif : enrichissement d'un dataset de prénoms
 
 ## Dataset original (dpt2020)
-A partir du [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020 et les effectifs par sexe associés à chaque prénom par département.
+Notre fichier de départ est le [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020 et les effectifs par sexe associés à chaque prénom par département.
 
 Nous avons choisi d'aborder ce dataset du point de vue de leur origine (notamment de croiser ces informations avec les origines des prénoms bretons, occitans, bibliques et anglais, d'après leurs attributions d'origine de Wikipédia) et de leur diversité croissante.
 
@@ -16,7 +16,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 # Enrichissement, Traitements
 
 ## Données Wikipédia
-à compléter
+> à compléter
 
 ## Données écartées
 - Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques
@@ -33,7 +33,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 ## Traitements
 
 - 10 prénoms les plus donnés par année depuis 1900 : les 10 premiers prénoms par département par année ont été filtrés dans Dataiku (recette TopN)
-- Evolution du nombre de prénoms par département depuis 1900 : le nombre de prénoms par département et par année est obtenu directment dans Tableau aves les fonctions de calcul
+- Evolution du nombre de prénoms par département depuis 1900 : le nombre de prénoms par département et par année est obtenu directement dans Tableau avec les fonctions de calcul
 
 # DataViz
 
@@ -47,7 +47,7 @@ et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/D
 
 # Conclusions
 
-Les data visualisations du Top10 des prénoms et l'accroissement du nombre de prénoms différents illustrent leur diversité toujours croissante, qu'il serait intéressant d'étudier plus profondément, par exemple en étudiant la proportion de prénoms récents (<= 5, 10 ans) parmi les prénoms de ces dernières décénnies. Ainsi considérés ensembles, ces prénoms rivalisent en volume avec les Marie et Jean du début et du milieu du XXe siècle.
+Les data visualisations du Top10 des prénoms et l'accroissement du nombre de prénoms différents illustrent leur diversité toujours croissante, qu'il serait intéressant d'étudier plus profondément, par exemple en étudiant la proportion de prénoms récents (<= 5, 10 ans) parmi les prénoms de ces dernières décennies. Ainsi considérés ensembles, ces prénoms rivalisent en volume avec les Marie et Jean du début et du milieu du XXe siècle.
 
 
 
