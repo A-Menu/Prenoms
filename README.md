@@ -33,7 +33,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 ## Traitements
 
 - 10 prénoms les plus donnés par année depuis 1900 : les 10 premiers prénoms par département par année ont été filtrés dans Dataiku (recette TopN)
-- Evolution du nombre de prénoms par département depuis 1900 : le nombre de prénoms par département et par année est obtenu directment dans Tableau aves les fonctions de calcul
+- Evolution du nombre de prénoms par département depuis 1900 : le nombre de prénoms par département et par année est obtenu directement dans Tableau avec les fonctions de calcul
 
 # DataViz
 
