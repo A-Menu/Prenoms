@@ -21,7 +21,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 ## Données écartées
 - Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques
 
-## Nettoyage des jeux de données (dpt2020)
+## Nettoyage des jeux de données [dpt2020](data/dpt2020_csv.zip)
 
 ### Nettoyage du fichier INSEE
 - 803 lignes (sur 3,7 millions) pour lesquelles des données n'étaient pas exploitables ont été supprimées. Il s'agit notamment d'enregistrements dont le champ année de naissance (ANNAIS) prenait la valeur «XXXX» et les départements de naissance (DPT) codés en «XX» pour certains cas de prénoms rares (voir "Conditions portant sur les prénoms retenus" sur le sire de l'INSEE).
