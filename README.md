@@ -19,7 +19,7 @@ Deux data visualisations à partir du dataset original ont également été prod
 à compléter
 
 ## Données écartées
-- Nous avons écarté l'exploitation du fichier Pantheon 2020 Person Dataset, un important dataset de données biographiques, du fait de l'absence de données historiques
+- Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques
 
 ## Nettoyage des jeux de données (dpt2020)
 
@@ -39,9 +39,11 @@ Deux data visualisations à partir du dataset original ont également été prod
 
 Vous pourrez retrouver nos DataViz ici :
 - Top 10 des prénoms les plus donnés par année depuis 1900
-![Top10_Prénoms_par_département_par_année](datavisualisations/Top10_Prénoms_par_département_par_année.png)
+![Top10](datavisualisations/Top10_Prénoms_par_département_par_année.png)
 et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/Top10Prnomspardpartementetparanne/Feuille2#1)
-- Evolution du nombre de prénoms par département depuis 1900 (datavisualisations/Diversité_prénoms_depuis_1900.png) et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/Diversitdesprnomsdepuis1900/Prnomsdiffrentspardpartementdepuis1900)
+- Evolution du nombre de prénoms par département depuis 1900
+![Evolution](datavisualisations/Diversité_prénoms_depuis_1900.png)
+et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/Diversitdesprnomsdepuis1900/Prnomsdiffrentspardpartementdepuis1900)
 
 # Conclusions
 
