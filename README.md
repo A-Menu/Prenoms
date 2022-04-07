@@ -5,7 +5,7 @@ Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 # Objectif : enrichissement d'un dataset de prénoms
 
 ## Dataset original (dpt2020)
-A partir du [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020 et les effectifs par sexe associés à chaque prénom par département.
+Notre fichier de départ est le [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020 et les effectifs par sexe associés à chaque prénom par département.
 
 Nous avons choisi d'aborder ce dataset du point de vue de leur origine (notamment de croiser ces informations avec les origines des prénoms bretons, occitans, bibliques et anglais, d'après leurs attributions d'origine de Wikipédia) et de leur diversité croissante.
 
