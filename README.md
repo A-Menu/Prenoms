@@ -1,4 +1,4 @@
-Data Visualisations Prénoms en France depuis 1900
+Data Visualisations | Prénoms en France depuis 1900
 ===
 Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 
