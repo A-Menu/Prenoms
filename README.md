@@ -5,7 +5,7 @@ Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 Ce dépôt rend compte d'un projet réalisé dans le cadre du cours "Données, Web de données et exploitation" dispensé par Mme Lauryne Lemosquet et M. Axel Roche-Dioré au master 2 "Technologies numériques appliquées à l'histoire" de l'Ecole nationale des chartes.
 
 
-> 🔴 **_N.B. :_  La description ci-dessous est un bref résumé des travaux réalisés dans le cadre du projet. La documentation complète peut être retrouvée dans le fichier `Compte_rendu.pdf`.**
+> 🔴 **_N.B. :_  La description ci-dessous est un bref résumé des travaux réalisés dans le cadre du projet. La documentation complète peut être retrouvée dans le fichier `Compte_rendu.pdf`. 🔴**
 
 
 # Objectif : enrichissement d'un dataset de prénoms
@@ -16,8 +16,8 @@ Notre fichier de départ est le [Fichier des prénoms de l'INSEE](https://www.in
 
 ## Datasets secondaires
 Les données initiales ont été complétées de deux façons :
-- Avec les prénoms retrouvés sur la liste des prénoms anglais, la liste des personnages de la Bible, la liste des prénoms bretons et la liste des prénoms occitans de Wikipédia.
-- Avec les prénoms des personnalités politiques françaises nées depuis 1900 (requête SPARQL sur les données de Wikidata).
+- Avec les prénoms retrouvés sur la [liste des prénoms anglais](https://fr.wikipedia.org/wiki/Liste_de_pr%C3%A9noms_anglais), la [liste des personnages de la Bible](https://fr.wikipedia.org/wiki/Liste_des_personnages_de_la_Bible), la [liste des prénoms bretons](https://fr.wikipedia.org/wiki/Liste_de_pr%C3%A9noms_bretons) et la [liste des prénoms occitans](https://fr.wikipedia.org/wiki/Liste_de_pr%C3%A9noms_occitans) de Wikipédia.
+- Avec les prénoms des personnalités politiques françaises nées depuis 1900 (requête SPARQL sur les données de [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)).
 - Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques.
 
 
