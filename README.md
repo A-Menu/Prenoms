@@ -1,6 +1,6 @@
 Data Visualisations | Les prénoms en France depuis 1900
 ===
-Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
+### Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 
 Ce dépôt rend compte d'un projet réalisé dans le cadre du cours "Données, Web de données et exploitation" dispensé par Mme Lauryne Lemosquet et M. Axel Roche-Dioré au master 2 "Technologies numériques appliquées à l'histoire" de l'Ecole nationale des chartes.
 
@@ -26,13 +26,13 @@ Les données initiales ont été complétées de deux façons :
 Vous pourrez retrouver nos DataViz ici :
 
 - ## Décompte des prénoms considérés comme anglais, bibliques, bretons et occitans par rapport au reste de la population française, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Dcomptedesprnomsconsidrscommeanglaisbibliquesbretonsetoccitansparrapportaurestedelapopulationfranaise1900-2020/decomptetotal)
-![Evolution](datavisualisations/prenoms_tendances_decompte.png)
+![Decompte](datavisualisations/prenoms_tendances_decompte.png)
 
 - ## Prénoms considérés comme anglais, bibliques, bretons et occitans les plus donnés en France selon le sexe, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/PrnomsconsidrscommeanglaisbibliquesbretonsetoccitanslesplusdonnsenFranceselonlesexe1900-2020/GFTotal)
-![Evolution](datavisualisations/prenoms_tendances_selon_sexe.png)
+![Distribution selon le sexe](datavisualisations/prenoms_tendances_selon_sexe.png)
 
 - ## Distribution départementale des prénoms considérés comme anglais, bibliques, bretons et occitans au fil du temps, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Distributiondpartementaledesprnomsconsidrscommeanglaisbibliquesbretonsetoccitansaufildutemps1900-2020/geototal)
-![Evolution](datavisualisations/prenoms_tendances_selon_geo.png)
+![Distribution départementale](datavisualisations/prenoms_tendances_selon_geo.png)
 
 
 - ## Top 10 des prénoms les plus donnés par année depuis 1900 [(voir la version interactive)](https://public.tableau.com/app/profile/victor.boby/viz/Top10Prnomspardpartementetparanne/Feuille2#1)
@@ -43,4 +43,4 @@ Vous pourrez retrouver nos DataViz ici :
 
 
 - ## Distribution des prénoms des personnalités politiques françaises par rapport à l'ensemble de la population, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Distributiondesprnomsdespersonnalitspolitiquesfranaisesparrapportlensembledelapopulation1900-2020/Politiques)
-![Evolution](datavisualisations/prenoms_politiques_distribution.png)
+![Distribution chez les politiques](datavisualisations/prenoms_politiques_distribution.png)
