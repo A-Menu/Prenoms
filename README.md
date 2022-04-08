@@ -2,53 +2,45 @@ Data Visualisations | Prénoms en France depuis 1900
 ===
 Victor Boby, Anaïs Mazoué, Ariane Menu - Avril 2022
 
+Ce dépôt rend compte d'un projet réalisé dans le cadre du cours "Données, Web de données et exploitation" dispensé par Mme Lauryne Lemosquet et M. Axel Roche-Dioré au master 2 "Technologies numériques appliquées à l'histoire" de l'Ecole nationale des chartes.
+
+
+> 🔴 **_N.B. :_  La description ci-dessous est un bref résumé des travaux réalisés dans le cadre du projet. La documentation complète peut être retrouvée dans le fichier `Compte_rendu.pdf`.**
+
+
 # Objectif : enrichissement d'un dataset de prénoms
 
-## Dataset original (dpt2020)
-Notre fichier de départ est le [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020 et les effectifs par sexe associés à chaque prénom par département.
+## Dataset primaire
+Notre fichier de départ est le [Fichier des prénoms de l'INSEE](https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262&q=pr%C3%A9noms), qui contient les prénoms attribués aux enfants nés en France hors Mayotte entre 1900 et 2020. À chaque prénom sont associés l'année d'attribution, le sexe de l'enfant et le nombre d'enfants ayant été ainsi nommés au cours d'une année. Les données sont disponibles à échelle nationale et départementale.
 
-Nous avons choisi d'aborder ce dataset du point de vue de leur origine (notamment de croiser ces informations avec les origines des prénoms bretons, occitans, bibliques et anglais, d'après leurs attributions d'origine de Wikipédia) et de leur diversité croissante.
 
-Deux data visualisations à partir du dataset original ont également été produites :
-- les 10 prénoms les plus donnés par année depuis 1900,
-- l'évolution du nombre de prénoms par département depuis 1900.
+## Datasets secondaires
+Les données initiales ont été complétées de deux façons :
+- Avec les prénoms retrouvés sur la liste des prénoms anglais, la liste des personnages de la Bible, la liste des prénoms bretons et la liste des prénoms occitans de Wikipédia.
+- Avec les prénoms des personnalités politiques françaises nées depuis 1900 (requête SPARQL sur les données de Wikidata).
+- Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques.
 
-# Enrichissement, Traitements
-
-## Données Wikipédia
-> à compléter
-
-## Données écartées
-- Nous avons écarté l'exploitation du fichier [Pantheon 2020 Person Dataset](https://pantheon.world/), un important dataset de données biographiques, du fait de l'absence de données historiques
-
-## Nettoyage des jeux de données [dpt2020](data/dpt2020_csv.zip)
-
-### Nettoyage du fichier INSEE
-- 803 lignes (sur 3,7 millions) pour lesquelles des données n'étaient pas exploitables ont été supprimées. Il s'agit notamment d'enregistrements dont le champ année de naissance (ANNAIS) prenait la valeur «XXXX» et les départements de naissance (DPT) codés en «XX» pour certains cas de prénoms rares (voir "Conditions portant sur les prénoms retenus" sur le sire de l'INSEE).
-
-- Les valeurs «_PRENOMS_RARES_» du champ prénom (PREUSUEL) ont été conservées pour les visualisations obtenues exclusivement depuis ce dataset, afin de ne pas perdre cette notion du point de vue de la diversité adopté.
-
-- Autres nettoyages faits par Ariane à ajouter
-
-## Traitements
-
-- 10 prénoms les plus donnés par année depuis 1900 : les 10 premiers prénoms par département par année ont été filtrés dans Dataiku [(recette TopN)](data/dpt2020_cleaned_topn.zip)
-- Evolution du nombre de prénoms par département depuis 1900 : à partir du fichier INSEE [nettoyé](data/dpt2020_cleaned_by_year.zip), le nombre de prénoms par département et par année est obtenu directement dans Tableau avec les fonctions de calcul
 
 # DataViz
 
 Vous pourrez retrouver nos DataViz ici :
-- Top 10 des prénoms les plus donnés par année depuis 1900
+
+- ## Décompte des prénoms considérés comme anglais, bibliques, bretons et occitans par rapport au reste de la population française, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Dcomptedesprnomsconsidrscommeanglaisbibliquesbretonsetoccitansparrapportaurestedelapopulationfranaise1900-2020/decomptetotal)
+![Evolution](datavisualisations/prenoms_tendances_decompte.png)
+
+- ## Prénoms considérés comme anglais, bibliques, bretons et occitans les plus donnés en France selon le sexe, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/PrnomsconsidrscommeanglaisbibliquesbretonsetoccitanslesplusdonnsenFranceselonlesexe1900-2020/GFTotal)
+![Evolution](datavisualisations/prenoms_tendances_selon_sexe.png)
+
+- ## Distribution départementale des prénoms considérés comme anglais, bibliques, bretons et occitans au fil du temps, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Distributiondpartementaledesprnomsconsidrscommeanglaisbibliquesbretonsetoccitansaufildutemps1900-2020/geototal)
+![Evolution](datavisualisations/prenoms_tendances_selon_geo.png)
+
+
+- ## Top 10 des prénoms les plus donnés par année depuis 1900 [(voir la version interactive)](https://public.tableau.com/app/profile/victor.boby/viz/Top10Prnomspardpartementetparanne/Feuille2#1)
 ![Top10](datavisualisations/Top10_Prénoms_par_département_par_année.png)
-et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/Top10Prnomspardpartementetparanne/Feuille2#1)
-- Evolution du nombre de prénoms par département depuis 1900
+
+- ## Evolution du nombre de prénoms par département depuis 1900 [(voir la version interactive)](https://public.tableau.com/app/profile/victor.boby/viz/Diversitdesprnomsdepuis1900/Prnomsdiffrentspardpartementdepuis1900)
 ![Evolution](datavisualisations/Diversité_prénoms_depuis_1900.png)
-et [sa version animée](https://public.tableau.com/app/profile/victor.boby/viz/Diversitdesprnomsdepuis1900/Prnomsdiffrentspardpartementdepuis1900)
-
-# Conclusions
-
-Les data visualisations du Top10 des prénoms et l'accroissement du nombre de prénoms différents illustrent leur diversité toujours croissante, qu'il serait intéressant d'étudier plus profondément, par exemple en étudiant la proportion de prénoms récents (<= 5, 10 ans) parmi les prénoms de ces dernières décennies. Ainsi considérés ensembles, ces prénoms rivalisent en volume avec les Marie et Jean du début et du milieu du XXe siècle.
 
 
-
-
+- ## Distribution des prénoms des personnalités politiques françaises par rapport à l'ensemble de la population, 1900-2020 [(voir la version interactive)](https://public.tableau.com/app/profile/am3015/viz/Distributiondesprnomsdespersonnalitspolitiquesfranaisesparrapportlensembledelapopulation1900-2020/Politiques)
+![Evolution](datavisualisations/prenoms_politiques_distribution.png)
